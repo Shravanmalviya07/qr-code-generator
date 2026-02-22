@@ -1,5 +1,5 @@
-import g_rcode
-from g_rcode import QRCode
+import qrcode
+from qrcode import QRCode
 from qrcode.constants import ERROR_CORRECT_L
 
 qr = QRCode(
